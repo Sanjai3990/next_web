@@ -1,0 +1,91 @@
+.home-container {
+  min-height: 100vh;
+  background-color: #ecf0f1;
+}
+
+.top-nav {
+  background-color: #34495e;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.nav-brand h3 {
+  color: white;
+  margin: 0;
+  padding: 20px 0;
+  margin-right: 40px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.nav-menu li a {
+  color: #bdc3c7;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px 15px;
+  display: block;
+  transition: color 0.3s;
+}
+
+.nav-menu li a:hover {
+  color: white;
+}
+
+.logout-link {
+  margin-left: auto; 
+}
+
+.logout-link a {
+  color: #e74c3c !important; 
+}
+
+.logout-link a:hover {
+  color: #c0392b !important;
+}
+
+.page-content {
+  padding: 40px;
+  color: #2c3e50;
+}
+
+.student-profile-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  margin-top: 20px;
+  max-width: 600px;
+}
+
+.student-profile-card h2 {
+  margin-top: 0;
+  color: #34495e;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.profile-grid p {
+  margin: 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.profile-grid strong {
+  color: #2c3e50;
+}
